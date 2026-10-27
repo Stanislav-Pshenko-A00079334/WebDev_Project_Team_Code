@@ -2,26 +2,23 @@ body {
 background-color: floralwhite;
 font-family: "Roboto", sans-serif;
 font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "width" 100;
+font-weight: 400;
+font-style: normal;
+font-variation-settings: "width" 100;
 }
 
 header {
-background-color: rgba(247, 224, 179, 0.692);
+  background-color: rgba(247, 224, 179, 0.692);
 
 
 }
 footer {
-background-color: rgba(247, 235, 213, 0.692);
-
-
+  background-color: rgba(247, 235, 213, 0.692);
 }
 
 img {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 
 }
 
@@ -29,36 +26,35 @@ height: auto;
 
 
 h1 {
-color: blue;
-font-size: 175%; 
-text-align: center;
-}
-p {
-color: navy;
+  color: blue;
+  font-size: 175%; 
+  text-align: center;
 }
 
 em {
-color:cadetblue
+  color:cadetblue
 }
 
 li {
-text-decoration: underline;
-text-align: center;
-font-size: larger;
+  text-decoration: underline;
+  text-align: center;
+  font-size: larger;
 
 }
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
-.par1 {
-text-shadow: 20px;
-text-transform: capitalize;
-text-decoration-color: rgb(42, 138, 42);
+.par1 
+{
+  text-shadow: 2px 2px 4px gray;
+  text-transform: capitalize;
+  color: rgb(42, 138, 42);
 }
-.par2 {
-text-align: left;
-text-indent: 20 px;
+.par2 
+{
+  text-align: left;
+  text-indent: 20px;
 
 
 }
