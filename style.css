@@ -1,60 +1,132 @@
-body { 
-background-color: floralwhite;
-font-family: "Roboto", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-variation-settings: "width" 100;
+body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header & Navigation Styling */
 header {
-  background-color: rgba(247, 224, 179, 0.692);
-
-
+    background-color: #0F172A;
+    color: #FFFFFF;
+    padding: 1.5rem 1rem;
+    text-align: center;
 }
-footer {
-  background-color: rgba(247, 235, 213, 0.692);
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+h2 {
+    color: #1E40AF;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+}
+
+/* Accessible hover & focus states */
+nav a:hover,
+nav a:focus {
+    background-color: #1E40AF;
+    color: #FFFFFF;
+    outline: 2px solid #60A5FA;
+    outline-offset: 2px;
+}
+
+/* Main Container */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Images & Figures */
+figure {
+    margin: 1rem 0;
 }
 
 img {
-  width: 100%;
-  height: auto;
-
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
 }
 
-
-
-
-h1 {
-  color: blue;
-  font-size: 175%; 
-  text-align: center;
+figcaption {
+    font-size: 0.85rem;
+    color: #475569;
+    margin-top: 0.4rem;
+    text-align: right;
 }
 
-em {
-  color:cadetblue
+figcaption a {
+    color: #1E40AF;
+}
+
+/* Lists & Paragraphs */
+ul {
+    padding-left: 1.5rem;
 }
 
 li {
-  text-decoration: underline;
-  text-align: center;
-  font-size: larger;
-
-}
-ul {
-  list-style-type: none;
+    margin-bottom: 0.5rem;
 }
 
-.par1 
-{
-  text-shadow: 2px 2px 4px gray;
-  text-transform: capitalize;
-  color: rgb(42, 138, 42);
+.intro-text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1E40AF;
 }
-.par2 
-{
-  text-align: left;
-  text-indent: 20px;
 
+.promo-badge {
+    display: inline-block;
+    background-color: #1E40AF;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 700;
+}
 
+.par1 {
+    font-size: 1.1rem;
+    color: #0F172A;
+}
+
+.par2 {
+    color: #334155;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0F172A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
