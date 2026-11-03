@@ -218,6 +218,46 @@ blockquote footer {
     color: #60A5FA;
     margin-top: 0;
 }
+/* FAQ Section Styling */
+.faq-section {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+details {
+    border-bottom: 1px solid #E2E8F0;
+    padding: 0.8rem 0;
+}
+
+details:last-child {
+    border-bottom: none;
+}
+
+summary {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #0F172A;
+    cursor: pointer;
+    padding: 0.4rem 0;
+    transition: color 0.2s ease;
+}
+
+summary:hover,
+summary:focus {
+    color: #1E40AF;
+    outline: 2px solid #60A5FA;
+    outline-offset: 3px;
+}
+
+details p {
+    margin: 0.5rem 0 0 1rem;
+    color: #334155;
+    line-height: 1.6;
+}
+
 
 /* Footer Styling */
 footer {
