@@ -111,6 +111,17 @@ main {
   padding: 0 1rem;
 }
 
+.bgclass {
+
+
+
+  background:  url('https://images.pexels.com/photos/6610070/pexels-photo-6610070.jpeg');
+	
+  background-size: cover;
+  background-attachment: fixed; /* Prevents white gap */
+  padding: 120px 20px;
+}
+
 /* Hero introductory box */
 .hero {
   background-color: #FFFFFF;
