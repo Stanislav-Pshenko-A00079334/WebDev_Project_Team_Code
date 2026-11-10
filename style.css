@@ -19,6 +19,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+   background: url('https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Aschaffenburg_Bischberg_from_Sternberg.jpg/960px-Aschaffenburg_Bischberg_from_Sternberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail');
+ 
+  background-size: 100%;
+  background-attachment: scroll;
+  background-position: center;
+  animation: heroMove 10s ease-in-out infinite alternate;
 }
 
 /* Accessibility skip link */
@@ -109,6 +115,7 @@ main {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 0 1rem;
+  
 }
 
 .bgclass {
@@ -130,11 +137,14 @@ main {
   border-radius: 6px;
   margin-bottom: 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+ 
 }
+
+
 
 .hero-desc {
   font-size: 1.1rem;
-  color: #334155;
+  color: #1E40AF;
 }
 
 /* Promo badge animation */
