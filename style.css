@@ -332,6 +332,7 @@ blockquote footer {
   border-radius: 8px;
   text-align: center;
   margin-bottom: 2rem;
+  margin: 4rem;
 }
 
 .info-banner h2 {
@@ -354,6 +355,40 @@ footer p {
 }
 
 /* Responsive media queries */
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0.5rem 0.25rem;
+  }
+
+  h1 {
+    font-size: 0.7rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.6rem;
+  }
+
+  .card-grid {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 100%;
+  }
+
+  main {
+    margin: 0.5rem auto;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   header {
     padding: 1rem 0.5rem;
@@ -379,6 +414,43 @@ footer p {
 
   .card {
     flex: 1 1 100%;
+  }
+
+  main {
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  header {
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.6rem;
+  }
+
+  .card-grid {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 100%;
+  }
+
+  .info-banner {
+    padding: 4rem;
+    margin: 2rem auto;
   }
 
   main {
